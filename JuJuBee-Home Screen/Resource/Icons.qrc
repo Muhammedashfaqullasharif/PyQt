@@ -1,0 +1,14 @@
+<RCC>
+  <qresource prefix="Icon-images">
+    <file>icons8-shutdown-26.png</file>
+    <file>icons8-greater-than-30.png</file>
+    <file>icons8-less-than-30.png</file>
+    <file>icons8-about-64.png</file>
+    <file>icons8-account-24.png</file>
+    <file>icons8-dashboard-24.png</file>
+    <file>icons8-home-30.png</file>
+    <file>icons8-login-24.png</file>
+    <file>icons8-search-26.png</file>
+    <file>icons8-settings-30.png</file>
+  </qresource>
+</RCC>

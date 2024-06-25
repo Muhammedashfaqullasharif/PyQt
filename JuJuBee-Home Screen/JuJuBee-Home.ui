@@ -1,0 +1,1039 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>759</width>
+    <height>418</height>
+   </rect>
+  </property>
+  <property name="baseSize">
+   <size>
+    <width>10</width>
+    <height>10</height>
+   </size>
+  </property>
+  <property name="contextMenuPolicy">
+   <enum>Qt::ContextMenuPolicy::DefaultContextMenu</enum>
+  </property>
+  <property name="windowTitle">
+   <string>JuJuBee</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="styleSheet">
+    <string notr="true">background-color: qlineargradient(spread:pad, x1:0.114, y1:0.772727, x2:0.619, y2:0.966, stop:0.147727 rgba(0, 0, 0, 240), stop:1 rgba(179, 0, 0, 255));</string>
+   </property>
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="1" alignment="Qt::AlignmentFlag::AlignLeft">
+     <widget class="QFrame" name="frame_2">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>0</width>
+        <height>400</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(240, 240, 240);
+border-right-color: rgb(214, 214, 214);
+border-radius: 12px;
+background-color: qlineargradient(spread:pad, x1:1, y1:1, x2:0.989, y2:1, stop:0.119318 rgba(0, 0, 0, 255), stop:0.215909 rgba(170, 0, 0, 107));</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::Shape::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Shadow::Raised</enum>
+      </property>
+      <property name="lineWidth">
+       <number>1</number>
+      </property>
+      <property name="midLineWidth">
+       <number>0</number>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout_2">
+       <property name="spacing">
+        <number>30</number>
+       </property>
+       <property name="leftMargin">
+        <number>10</number>
+       </property>
+       <property name="topMargin">
+        <number>10</number>
+       </property>
+       <property name="rightMargin">
+        <number>10</number>
+       </property>
+       <property name="bottomMargin">
+        <number>10</number>
+       </property>
+       <item>
+        <widget class="QPushButton" name="LoginBtn_1">
+         <property name="styleSheet">
+          <string notr="true">QPushButton{
+background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0.875 rgba(0, 0, 0, 186), stop:1 rgba(255, 255, 255, 255));
+border-color: rgb(255, 255, 255);
+border-radius:5px;
+}
+
+QPushButton:checked{
+	
+	
+	background-color: qlineargradient(spread:pad, x1:1, y1:0, x2:1, y2:1, stop:0 rgba(216, 216, 216, 49), stop:1 rgba(238, 238, 238, 175));
+
+	color: rgb(0, 0, 0);
+}
+
+
+
+</string>
+         </property>
+         <property name="text">
+          <string>Login</string>
+         </property>
+         <property name="icon">
+          <iconset resource="Resource/Icons.qrc">
+           <normaloff>:/Icon-images/icons8-login-24.png</normaloff>:/Icon-images/icons8-login-24.png</iconset>
+         </property>
+         <property name="checkable">
+          <bool>true</bool>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+         <property name="autoExclusive">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="AccountBtn_1">
+         <property name="layoutDirection">
+          <enum>Qt::LayoutDirection::LeftToRight</enum>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QPushButton{
+background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0.875 rgba(0, 0, 0, 186), stop:1 rgba(255, 255, 255, 255));
+border-color: rgb(255, 255, 255);
+border-radius:5px;
+}
+
+QPushButton:checked{
+	
+	
+	background-color: qlineargradient(spread:pad, x1:1, y1:0, x2:1, y2:1, stop:0 rgba(216, 216, 216, 49), stop:1 rgba(238, 238, 238, 175));
+
+	color: rgb(0, 0, 0);
+}</string>
+         </property>
+         <property name="text">
+          <string>Account</string>
+         </property>
+         <property name="icon">
+          <iconset resource="Resource/Icons.qrc">
+           <normaloff>:/Icon-images/icons8-account-24.png</normaloff>:/Icon-images/icons8-account-24.png</iconset>
+         </property>
+         <property name="checkable">
+          <bool>true</bool>
+         </property>
+         <property name="autoExclusive">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="DashboardBtn_1">
+         <property name="styleSheet">
+          <string notr="true">QPushButton{
+background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0.875 rgba(0, 0, 0, 186), stop:1 rgba(255, 255, 255, 255));
+
+border-radius:5px;
+}
+
+QPushButton:checked{
+	
+	
+	background-color: qlineargradient(spread:pad, x1:1, y1:0, x2:1, y2:1, stop:0 rgba(216, 216, 216, 49), stop:1 rgba(238, 238, 238, 175));
+
+	color: rgb(0, 0, 0);
+}</string>
+         </property>
+         <property name="text">
+          <string>Dashboard</string>
+         </property>
+         <property name="icon">
+          <iconset resource="Resource/Icons.qrc">
+           <normaloff>:/Icon-images/icons8-dashboard-24.png</normaloff>:/Icon-images/icons8-dashboard-24.png</iconset>
+         </property>
+         <property name="checkable">
+          <bool>true</bool>
+         </property>
+         <property name="checked">
+          <bool>false</bool>
+         </property>
+         <property name="autoExclusive">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="SettingsBtn_1">
+         <property name="styleSheet">
+          <string notr="true">QPushButton{
+background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0.875 rgba(0, 0, 0, 186), stop:1 rgba(255, 255, 255, 255));
+
+border-radius:5px;
+}
+
+QPushButton:checked{
+	
+	
+	background-color: qlineargradient(spread:pad, x1:1, y1:0, x2:1, y2:1, stop:0 rgba(216, 216, 216, 49), stop:1 rgba(238, 238, 238, 175));
+
+	color: rgb(0, 0, 0);
+}</string>
+         </property>
+         <property name="text">
+          <string>Settings</string>
+         </property>
+         <property name="icon">
+          <iconset resource="Resource/Icons.qrc">
+           <normaloff>:/Icon-images/icons8-settings-30.png</normaloff>:/Icon-images/icons8-settings-30.png</iconset>
+         </property>
+         <property name="checkable">
+          <bool>true</bool>
+         </property>
+         <property name="checked">
+          <bool>false</bool>
+         </property>
+         <property name="autoExclusive">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="AboutBtn_1">
+         <property name="styleSheet">
+          <string notr="true">QPushButton{
+background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0.875 rgba(0, 0, 0, 186), stop:1 rgba(255, 255, 255, 255));
+
+border-radius:5px;
+}
+
+QPushButton:checked{
+	
+	
+	background-color: qlineargradient(spread:pad, x1:1, y1:0, x2:1, y2:1, stop:0 rgba(216, 216, 216, 49), stop:1 rgba(238, 238, 238, 175));
+
+	color: rgb(0, 0, 0);
+}</string>
+         </property>
+         <property name="text">
+          <string>About</string>
+         </property>
+         <property name="icon">
+          <iconset resource="Resource/Icons.qrc">
+           <normaloff>:/Icon-images/icons8-about-64.png</normaloff>:/Icon-images/icons8-about-64.png</iconset>
+         </property>
+         <property name="checkable">
+          <bool>true</bool>
+         </property>
+         <property name="checked">
+          <bool>false</bool>
+         </property>
+         <property name="autoExclusive">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <spacer name="verticalSpacer_2">
+         <property name="orientation">
+          <enum>Qt::Orientation::Vertical</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>20</width>
+           <height>147</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item row="0" column="2">
+     <layout class="QVBoxLayout" name="verticalLayout_3">
+      <item alignment="Qt::AlignmentFlag::AlignTop">
+       <widget class="QFrame" name="menu">
+        <property name="styleSheet">
+         <string notr="true">background-color: qlineargradient(spread:pad, x1:0.273091, y1:0.801, x2:0.955, y2:1, stop:0.261364 rgba(0, 0, 0, 204), stop:0.840909 rgba(208, 0, 0, 155));</string>
+        </property>
+        <property name="frameShape">
+         <enum>QFrame::Shape::StyledPanel</enum>
+        </property>
+        <property name="frameShadow">
+         <enum>QFrame::Shadow::Raised</enum>
+        </property>
+        <layout class="QHBoxLayout" name="horizontalLayout">
+         <property name="leftMargin">
+          <number>0</number>
+         </property>
+         <property name="topMargin">
+          <number>0</number>
+         </property>
+         <property name="rightMargin">
+          <number>0</number>
+         </property>
+         <property name="bottomMargin">
+          <number>0</number>
+         </property>
+         <item>
+          <widget class="QPushButton" name="ExpandBtn">
+           <property name="toolTip">
+            <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Expand&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0.875 rgba(0, 0, 0, 186), stop:1 rgba(255, 255, 255, 255));
+
+border-color: rgb(255, 255, 255);
+border-radius:5px;</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="icon">
+            <iconset resource="Resource/Icons.qrc">
+             <normaloff>:/Icon-images/icons8-greater-than-30.png</normaloff>:/Icon-images/icons8-greater-than-30.png</iconset>
+           </property>
+           <property name="checkable">
+            <bool>true</bool>
+           </property>
+           <property name="checked">
+            <bool>false</bool>
+           </property>
+           <property name="autoExclusive">
+            <bool>false</bool>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="HomeLabl">
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(0, 0, 0);
+color: rgb(240, 240, 240);</string>
+           </property>
+           <property name="text">
+            <string>Home</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <spacer name="horizontalSpacer">
+           <property name="orientation">
+            <enum>Qt::Orientation::Horizontal</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>9</width>
+             <height>20</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+         <item>
+          <widget class="QLineEdit" name="Search">
+           <property name="enabled">
+            <bool>true</bool>
+           </property>
+           <property name="minimumSize">
+            <size>
+             <width>429</width>
+             <height>0</height>
+            </size>
+           </property>
+           <property name="layoutDirection">
+            <enum>Qt::LayoutDirection::LeftToRight</enum>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">color: rgb(255, 255, 255);
+
+background-color: qlineargradient(spread:pad, x1:0.9545, y1:0.955, x2:1, y2:1, stop:0 rgba(24, 24, 24, 206), stop:1 rgba(131, 16, 16, 255));
+border-radius:5px;
+</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="frame">
+            <bool>true</bool>
+           </property>
+           <property name="placeholderText">
+            <string>search</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <spacer name="horizontalSpacer_2">
+           <property name="orientation">
+            <enum>Qt::Orientation::Horizontal</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>9</width>
+             <height>20</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+         <item>
+          <widget class="QPushButton" name="ExitBtn">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">color: rgb(255, 255, 255);
+background-color: rgb(0, 0, 0);
+border-radius:5px;</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="icon">
+            <iconset resource="Resource/Icons.qrc">
+             <normaloff>:/Icon-images/icons8-shutdown-26.png</normaloff>:/Icon-images/icons8-shutdown-26.png</iconset>
+           </property>
+           <property name="checkable">
+            <bool>true</bool>
+           </property>
+           <property name="autoExclusive">
+            <bool>false</bool>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item>
+       <widget class="QStackedWidget" name="stackedWidget">
+        <property name="frameShadow">
+         <enum>QFrame::Shadow::Sunken</enum>
+        </property>
+        <property name="lineWidth">
+         <number>0</number>
+        </property>
+        <property name="currentIndex">
+         <number>0</number>
+        </property>
+        <widget class="QWidget" name="Welcome">
+         <layout class="QVBoxLayout" name="verticalLayout_4">
+          <item alignment="Qt::AlignmentFlag::AlignHCenter|Qt::AlignmentFlag::AlignVCenter">
+           <widget class="QLabel" name="WelcomeLabl">
+            <property name="font">
+             <font>
+              <family>Rockwell Extra Bold</family>
+              <pointsize>28</pointsize>
+              <italic>false</italic>
+              <fontweight>ExtraBold</fontweight>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">background-color: qlineargradient(spread:pad, x1:1, y1:1, x2:1, y2:1, stop:0 rgba(0, 0, 0, 113), stop:1 rgba(248, 248, 248, 0));
+color: rgb(229, 229, 229);
+border-color: rgb(255, 255, 255);
+font: 800 28pt &quot;Rockwell Extra Bold&quot;;
+border-radius:8px;</string>
+            </property>
+            <property name="text">
+             <string> WELCOME HOME</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+        <widget class="QWidget" name="Account">
+         <widget class="QLabel" name="AccountLabl">
+          <property name="geometry">
+           <rect>
+            <x>110</x>
+            <y>160</y>
+            <width>340</width>
+            <height>45</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <family>Rockwell Extra Bold</family>
+            <pointsize>28</pointsize>
+            <italic>false</italic>
+            <fontweight>ExtraBold</fontweight>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color: qlineargradient(spread:pad, x1:1, y1:1, x2:1, y2:1, stop:0 rgba(0, 0, 0, 113), stop:1 rgba(248, 248, 248, 0));
+color: rgb(229, 229, 229);
+border-color: rgb(255, 255, 255);
+font: 800 28pt &quot;Rockwell Extra Bold&quot;;
+border-radius:8px;</string>
+          </property>
+          <property name="text">
+           <string>YOUR ACCOUNT</string>
+          </property>
+          <property name="margin">
+           <number>0</number>
+          </property>
+         </widget>
+        </widget>
+        <widget class="QWidget" name="Dashboard">
+         <widget class="QLabel" name="DashboardLabl">
+          <property name="geometry">
+           <rect>
+            <x>150</x>
+            <y>160</y>
+            <width>270</width>
+            <height>45</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <family>Rockwell Extra Bold</family>
+            <pointsize>28</pointsize>
+            <italic>false</italic>
+            <fontweight>ExtraBold</fontweight>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color: qlineargradient(spread:pad, x1:1, y1:1, x2:1, y2:1, stop:0 rgba(0, 0, 0, 113), stop:1 rgba(248, 248, 248, 0));
+color: rgb(229, 229, 229);
+border-color: rgb(255, 255, 255);
+font: 800 28pt &quot;Rockwell Extra Bold&quot;;
+border-radius:8px;</string>
+          </property>
+          <property name="text">
+           <string>DASHBOARD</string>
+          </property>
+          <property name="margin">
+           <number>0</number>
+          </property>
+         </widget>
+        </widget>
+        <widget class="QWidget" name="Settings">
+         <widget class="QLabel" name="SettingsLabl">
+          <property name="geometry">
+           <rect>
+            <x>180</x>
+            <y>160</y>
+            <width>220</width>
+            <height>45</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <family>Rockwell Extra Bold</family>
+            <pointsize>28</pointsize>
+            <italic>false</italic>
+            <fontweight>ExtraBold</fontweight>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color: qlineargradient(spread:pad, x1:1, y1:1, x2:1, y2:1, stop:0 rgba(0, 0, 0, 113), stop:1 rgba(248, 248, 248, 0));
+color: rgb(229, 229, 229);
+border-color: rgb(255, 255, 255);
+font: 800 28pt &quot;Rockwell Extra Bold&quot;;
+border-radius:8px;</string>
+          </property>
+          <property name="text">
+           <string>SETTINGS</string>
+          </property>
+          <property name="margin">
+           <number>0</number>
+          </property>
+         </widget>
+        </widget>
+        <widget class="QWidget" name="About">
+         <widget class="QLabel" name="AboutLabl">
+          <property name="geometry">
+           <rect>
+            <x>210</x>
+            <y>160</y>
+            <width>160</width>
+            <height>45</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <family>Rockwell Extra Bold</family>
+            <pointsize>28</pointsize>
+            <italic>false</italic>
+            <fontweight>ExtraBold</fontweight>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color: qlineargradient(spread:pad, x1:1, y1:1, x2:1, y2:1, stop:0 rgba(0, 0, 0, 113), stop:1 rgba(248, 248, 248, 0));
+color: rgb(229, 229, 229);
+border-color: rgb(255, 255, 255);
+font: 800 28pt &quot;Rockwell Extra Bold&quot;;
+border-radius:8px;</string>
+          </property>
+          <property name="text">
+           <string> ABOUT </string>
+          </property>
+          <property name="margin">
+           <number>0</number>
+          </property>
+         </widget>
+        </widget>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item row="0" column="0" alignment="Qt::AlignmentFlag::AlignLeft">
+     <widget class="QFrame" name="frame">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>0</width>
+        <height>400</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(240, 240, 240);
+border-right-color: rgb(214, 214, 214);
+border-radius: 12px;
+background-color: qlineargradient(spread:pad, x1:1, y1:1, x2:0.989, y2:1, stop:0.119318 rgba(0, 0, 0, 255), stop:0.215909 rgba(170, 0, 0, 107));</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::Shape::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Shadow::Raised</enum>
+      </property>
+      <property name="lineWidth">
+       <number>1</number>
+      </property>
+      <property name="midLineWidth">
+       <number>0</number>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout">
+       <property name="spacing">
+        <number>30</number>
+       </property>
+       <property name="leftMargin">
+        <number>10</number>
+       </property>
+       <property name="topMargin">
+        <number>10</number>
+       </property>
+       <property name="rightMargin">
+        <number>10</number>
+       </property>
+       <property name="bottomMargin">
+        <number>10</number>
+       </property>
+       <item>
+        <widget class="QPushButton" name="LoginBtn">
+         <property name="styleSheet">
+          <string notr="true">QPushButton{
+background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0.875 rgba(0, 0, 0, 186), stop:1 rgba(255, 255, 255, 255));
+image: url(:/Icon-images/icons8-login-24.png);
+border-color: rgb(255, 255, 255);
+border-radius:5px;
+}
+QPushButton:checked{
+	
+	
+	background-color: qlineargradient(spread:pad, x1:1, y1:0, x2:1, y2:1, stop:0 rgba(216, 216, 216, 49), stop:1 rgba(238, 238, 238, 175));
+
+	color: rgb(0, 0, 0);
+}
+</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="checkable">
+          <bool>true</bool>
+         </property>
+         <property name="checked">
+          <bool>false</bool>
+         </property>
+         <property name="autoExclusive">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="AccountBtn">
+         <property name="styleSheet">
+          <string notr="true">QPushButton{
+background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0.875 rgba(0, 0, 0, 186), stop:1 rgba(255, 255, 255, 255));
+image: url(:/Icon-images/icons8-account-24.png);
+border-color: rgb(255, 255, 255);
+border-radius:5px;
+}
+QPushButton:checked{
+	
+	
+	background-color: qlineargradient(spread:pad, x1:1, y1:0, x2:1, y2:1, stop:0 rgba(216, 216, 216, 49), stop:1 rgba(238, 238, 238, 175));
+
+	color: rgb(0, 0, 0);
+}
+</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="checkable">
+          <bool>true</bool>
+         </property>
+         <property name="checked">
+          <bool>false</bool>
+         </property>
+         <property name="autoExclusive">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="DashboardBtn">
+         <property name="styleSheet">
+          <string notr="true">QPushButton{
+background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0.875 rgba(0, 0, 0, 186), stop:1 rgba(255, 255, 255, 255));
+image: url(:/Icon-images/icons8-dashboard-24.png);
+border-radius:5px;
+}
+QPushButton:checked{
+	
+	
+	background-color: qlineargradient(spread:pad, x1:1, y1:0, x2:1, y2:1, stop:0 rgba(216, 216, 216, 49), stop:1 rgba(238, 238, 238, 175));
+
+	color: rgb(0, 0, 0);
+}
+</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="checkable">
+          <bool>true</bool>
+         </property>
+         <property name="checked">
+          <bool>false</bool>
+         </property>
+         <property name="autoExclusive">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="SettingsBtn">
+         <property name="styleSheet">
+          <string notr="true">QPushButton{
+background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0.875 rgba(0, 0, 0, 186), stop:1 rgba(255, 255, 255, 255));
+image: url(:/Icon-images/icons8-settings-30.png);
+border-radius:5px;
+}
+QPushButton:checked{
+	
+	
+	background-color: qlineargradient(spread:pad, x1:1, y1:0, x2:1, y2:1, stop:0 rgba(216, 216, 216, 49), stop:1 rgba(238, 238, 238, 175));
+
+	color: rgb(0, 0, 0);
+}
+</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="checkable">
+          <bool>true</bool>
+         </property>
+         <property name="checked">
+          <bool>false</bool>
+         </property>
+         <property name="autoExclusive">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="AboutBtn">
+         <property name="styleSheet">
+          <string notr="true">QPushButton{
+background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0.875 rgba(0, 0, 0, 186), stop:1 rgba(255, 255, 255, 255));
+image: url(:/Icon-images/icons8-about-64.png);
+border-radius:5px;
+}
+
+QPushButton:checked{
+	
+	
+	background-color: qlineargradient(spread:pad, x1:1, y1:0, x2:1, y2:1, stop:0 rgba(216, 216, 216, 49), stop:1 rgba(238, 238, 238, 175));
+
+	color: rgb(0, 0, 0);
+}
+</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="checkable">
+          <bool>true</bool>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+         <property name="autoExclusive">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <spacer name="verticalSpacer">
+         <property name="orientation">
+          <enum>Qt::Orientation::Vertical</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>20</width>
+           <height>40</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+      </layout>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources>
+  <include location="Resource/Icons.qrc"/>
+ </resources>
+ <connections>
+  <connection>
+   <sender>ExpandBtn</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>frame</receiver>
+   <slot>setHidden(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>183</x>
+     <y>28</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>54</x>
+     <y>136</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>ExpandBtn</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>frame_2</receiver>
+   <slot>setVisible(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>172</x>
+     <y>25</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>157</x>
+     <y>78</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>LoginBtn</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>LoginBtn_1</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>38</x>
+     <y>28</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>112</x>
+     <y>26</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>LoginBtn_1</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>LoginBtn</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>106</x>
+     <y>30</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>34</x>
+     <y>31</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>AccountBtn_1</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>AccountBtn</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>78</x>
+     <y>67</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>40</x>
+     <y>67</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>AccountBtn</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>AccountBtn_1</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>39</x>
+     <y>77</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>113</x>
+     <y>77</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>DashboardBtn</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>DashboardBtn_1</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>35</x>
+     <y>116</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>84</x>
+     <y>116</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>DashboardBtn_1</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>DashboardBtn</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>75</x>
+     <y>123</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>24</x>
+     <y>125</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>SettingsBtn</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>SettingsBtn_1</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>36</x>
+     <y>158</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>88</x>
+     <y>161</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>SettingsBtn_1</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>SettingsBtn</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>79</x>
+     <y>167</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>19</x>
+     <y>164</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>AboutBtn_1</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>AboutBtn</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>76</x>
+     <y>213</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>28</x>
+     <y>204</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>AboutBtn</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>AboutBtn_1</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>44</x>
+     <y>212</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>85</x>
+     <y>212</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>ExitBtn</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>MainWindow</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>740</x>
+     <y>16</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>775</x>
+     <y>74</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>
